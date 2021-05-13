@@ -1,0 +1,114 @@
+body {
+    background-color:silver;
+    color: #ffffff;
+    font-family: cursive;
+    font-size: 17px;
+    padding: 15px;
+    background-image: url(./background.jpg);
+    background-size: cover;
+  }
+  .container {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;  
+  }
+ .container h1 {
+     text-align: center;
+     background-color: darkslategrey;
+     padding: 15px;
+ }
+ .section-header {
+    color:firebrick;
+    background-color: ghostwhite;
+    text-align:center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  table {
+    width: 100%;
+    border-spacing: 0px;
+    color: midnightblue;
+  }
+  td {
+    text-align: center;
+    padding: 10px 15px;
+  }
+ 
+  .text-left { text-align:center; }
+   
+  th {
+    color: #333333;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+ 
+  tr:nth-child(odd) { background-color: lightyellow;}
+  tr:nth-child(even){background-color: rgb(153, 153, 124);}
+ 
+  .section header{
+    float: left;
+  }
+  figcaption span {
+    display: block;
+    color:white;
+    font-size: 18px;
+  }
+   
+  .item-name {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+    
+  .special-items {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+    justify-content: center;
+  }
+  
+  .special-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+     
+  hr {
+    width: 60%;
+    border: 0.5px solid #ccc;
+  }
+  .contact-link {
+    color:forestgreen;
+    background-color: paleturquoise;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  a { transition: all 0.3s ease; }
+  .contact-link:hover { color: #000000; }
+
+  .footer-text {
+    font-size: 0.9rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+    .footer-link {
+      color:palegreen;
+      text-decoration: none;
+    }
+  
+    .footer-link:hover { color: #c5ced8;}
+  
+  .footer-link {
+    color:gold;
+    text-decoration: none;
+   
+  }
+
+  .footer-link:hover { color:bisque; 
+}
